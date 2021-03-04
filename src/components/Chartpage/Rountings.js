@@ -11,7 +11,7 @@ import PageNotFound from '../PageNotFound';
             <BrowserRouter>
             <Switch>
                 <Route path="/" component={Home} exact/>
-                 <Route path="task" component={Task} exact/>
+                 <Route path="/task" component={Task} exact/>
                  <Route path="/chart" component={Chart} exact/>
                  <Route path="*" component={PageNotFound} />
             </Switch>

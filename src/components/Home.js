@@ -8,7 +8,7 @@ return(
     <div>
        <h1>Home page</h1>
        <br></br>
-       <Link to="/Task">
+       <Link to="/task">
        <button>Take me to chart page</button>
        </Link>
     </div>
